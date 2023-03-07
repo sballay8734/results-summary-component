@@ -215,6 +215,18 @@ body {
   }
 
   html {
-    font-size: .7rem;
+    font-size: .9rem;
+  }
+}
+
+@media (max-height: 800px) {
+  .result-overview > .average-score > .score {
+    font-size: 1.5rem;
+  }
+  /* add another for "Great" */
+  /* add another for "You scored higher..." */
+  .result-overview .average-score {
+    height: 7rem;
+    width: 7rem;
   }
 }
